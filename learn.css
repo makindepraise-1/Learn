@@ -166,3 +166,11 @@ main .intro-image img {
 main .intro-image:hover img {
     transform: scale(1.1);
 }
+footer {
+    background-color: #fff5e1;
+    color: #5a3c0b;
+    text-align: center;
+    padding: 20px 0;
+    font-family: "Red Rose", serif;
+    font-weight: 500;
+}
