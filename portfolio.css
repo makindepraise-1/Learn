@@ -1,1 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    background-color: #fff5e1;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main .portfolio {
+    padding: 100px 100px;
+    background-color: inherit;
+    border-radius: 8px;
+    border: 1px solid #c48b28;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main .portfolio h1 {
+    font-size: 36px;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    color: #5a3c0b;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+main .portfolio p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Red Rose", serif;
+    color: #5a3c0b;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+main .projects h2 {
+    font-size: 28px;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    color: #5a3c0b;
+    margin-bottom: 15px;
+}
+main .projects ul {
+    list-style-type: none;
+}
+main .projects ul li {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Red Rose", serif;
+    color: #5a3c0b;
+    margin-bottom: 10px;
+}
+main .projects ul li strong {
+    color: #c48b28;
+}
+main .work-ecperience h2 {
+    font-size: 28px;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    color: #5a3c0b;
+    margin-bottom: 15px;
+}
+main .work-ecperience ul {
+    list-style-type: none;
+}
+main .work-ecperience ul li {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Red Rose", serif;
+    color: #5a3c0b;
+    margin-bottom: 10px;
+}
+main .work-ecperience ul li strong {
+    color: #c48b28;
+}
+main .portfolio a {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #c48b28;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+main .portfolio a:hover {
+    color: #5a3c0b;
+}
