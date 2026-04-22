@@ -62,30 +62,35 @@ main .projects ul li {
 main .projects ul li strong {
     color: #c48b28;
 }
-main .work-ecperience h2 {
+main .work-experience h2 {
     font-size: 28px;
     font-family: "Orbitron", sans-serif;
     font-weight: 600;
     color: #5a3c0b;
     margin-bottom: 15px;
 }
-main .work-ecperience ul {
+main .work-experience ul {
     list-style-type: none;
 }
-main .work-ecperience ul li {
+main .work-experience ul li {
     font-size: 18px;
     font-weight: 400;
     font-family: "Red Rose", serif;
     color: #5a3c0b;
     margin-bottom: 10px;
 }
-main .work-ecperience ul li strong {
+main .work-experience ul li strong {
     color: #c48b28;
 }
+main .work-experience{
+    margin-top: 30px;
+}
 main .portfolio a {
+    font-family: "Red Rose", serif;
     display: inline-block;
-    margin-top: 20px;
-    font-size: 16px;
+    text-transform: capitalize;
+    margin-top: 50px;
+    font-size: 20px;
     color: #c48b28;
     text-decoration: none;
     transition: color 0.3s ease;
